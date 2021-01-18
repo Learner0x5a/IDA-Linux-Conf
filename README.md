@@ -70,6 +70,7 @@ cp /path/to/ida/libpython2.7.so.1.0 /path/to/ida/python/lib/python2.7/lib-dynloa
 IDA PRO 6.8自带的python2.7要求openssl版本为32bit 0.9.8，并且openssl1.0.0和0.9.8不兼容，所以不能通过创建软链接的方式解决，需要安装openssl0.9.8版本。
 
 ```bash
+# https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/universe/o/openssl098/libssl0.9.8_0.9.8o-7_i386.deb
 wget http://snapshot.debian.org/archive/debian/20110406T213352Z/pool/main/o/openssl098/libssl0.9.8_0.9.8o-7_i386.deb
 dpkg -i install libssl0.9.8_0.9.8o-7_i386.deb
 ```
