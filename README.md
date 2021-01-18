@@ -1,7 +1,7 @@
 # IDA-Linux-Conf
 Configure IDA pro linux version to support custom python/pip. 配置linux版IDA，支持自己的python/pip。
 
-Tested on Ubuntu 18.04 64bit.
+Tested with IDA pro 6.8 on Ubuntu 18.04 64bit.
 
 ## 32位环境配置；32bit enviroment
 ```bash
