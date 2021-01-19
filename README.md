@@ -52,9 +52,9 @@ export LD_LIBRARY_PATH=/lib/i386-linux-gnu/:/usr/lib32:$LD_LIBRARY_PATH
 ### 使用安装的包；Use installed packages
 在你脚本里添加；In your python script, add
 ```bash
-sys.path.append("/root/env-deps/py27-32/lib/python2.7/site-packages") 
-sys.path.append("/root/env-deps/py27-32") 
-sys.path.append("/root/env-deps/py27-32/lib/python2.7")
+sys.path.append("/path/to/python27-32/lib/python2.7/site-packages") 
+sys.path.append("/path/to/python27-32") 
+sys.path.append("/path/to/python27-32/lib/python2.7")
 ```
 
 
