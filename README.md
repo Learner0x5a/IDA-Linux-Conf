@@ -74,3 +74,9 @@ IDA PRO 6.8自带的python2.7要求openssl版本为32bit 0.9.8，并且openssl1.
 wget http://snapshot.debian.org/archive/debian/20110406T213352Z/pool/main/o/openssl098/libssl0.9.8_0.9.8o-7_i386.deb
 dpkg -i install libssl0.9.8_0.9.8o-7_i386.deb
 ```
+
+## Bug: TVision error: Can not load libcurses.so Without libcurses can work only with xterm/linux
+设置环境变量
+```bash
+export TERM=xterm
+```
